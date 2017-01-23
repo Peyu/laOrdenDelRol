@@ -1,0 +1,79 @@
+<link href="/assets/articulos-lista.css" rel="stylesheet">
+
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Articulos</h1>
+
+    <div class="container">
+		<div class="row">
+			<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+				<ul class="event-list">
+				<% @articulos.each do |articulo| %>
+
+					<li>
+						<time datetime="2014-07-20 0000">
+							<span class="day">8</span>
+							<span class="month">Jul</span>
+							<span class="year">2014</span>
+							<span class="time">12:00 AM</span>
+						</time>
+						<div class="info">
+							<h2 class="title"><%= articulo.titulo %></h2>
+							<p class="desc"><%= articulo.subtitulo %></p>
+							<ul>
+								<li style="width:80%;"><a href="#website"><span class="fa fa-eye"></span>Leer</a></li>
+								<li style="width:10%;"><span class="fa fa-thumbs-o-up"></span>10</li>
+								<li style="width:10%;"><span class="fa fa-thumbs-o-down"></span>10</li>
+							</ul>
+						</div>
+					</li>
+                <% end %>    
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Titulo</th>
+      <th>Subtitulo</th>
+      <th>Cuerpo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @articulos.each do |articulo| %>
+      <tr>
+        <td><%= articulo.titulo %></td>
+        <td><%= articulo.subtitulo %></td>
+        <td><%= articulo.cuerpo %></td>
+        <td><%= link_to 'Show', articulo %></td>
+        <td><%= link_to 'Edit', edit_articulo_path(articulo) %></td>
+        <td><%= link_to 'Destroy', articulo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Articulo', new_articulo_path %>

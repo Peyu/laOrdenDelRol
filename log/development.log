@@ -1,0 +1,1018 @@
+
+
+Started GET "/articulos/" for 127.0.0.1 at 2017-01-22 17:33:25 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/articulos"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (56.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-22 17:33:57 -0300
+Processing by LandingController#index as HTML
+  Rendered landing/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1430ms (Views: 1429.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css" for 127.0.0.1 at 2017-01-22 17:33:58 -0300
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2017-01-22 17:33:58 -0300
+
+
+Started GET "/assets/icomoon.css" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/animate-custom.css" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/modernizr.custom.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/team/team03.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/team/team01.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/team/team04.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/team/team02.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/retina.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/jquery-func.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio01.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/smoothscroll.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.js" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/macbook.png" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio02.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio03.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio04.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio05.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/portfolio/folio06.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/ico/favicon.png" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/ico/favicon.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.2ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.0ms)
+
+
+Started GET "/assets//header_bg.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets//bg/divider1.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets//bg/divider6.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets//bg/divider3.jpg" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/assets/icomoon/icomoon.woff" for 127.0.0.1 at 2017-01-22 17:33:59 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-22 17:34:07 -0300
+
+ActionController::RoutingError (No route matches [GET] "/articulos"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.5ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-22 19:22:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/articulos"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (43.2ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-22 19:22:56 -0300
+Processing by LandingController#index as HTML
+  Rendered landing/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 727ms (Views: 718.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/animate-custom.css" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/icomoon.css" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/modernizr.custom.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/retina.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/smoothscroll.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/jquery-func.js" for 127.0.0.1 at 2017-01-22 19:22:57 -0300
+
+
+Started GET "/assets/team/team01.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/team/team02.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/team/team03.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/team/team04.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/macbook.png" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio01.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio04.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio05.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio02.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio06.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets/portfolio/folio03.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets//header_bg.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets//bg/divider1.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets//bg/divider3.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/assets//bg/divider6.jpg" for 127.0.0.1 at 2017-01-22 19:22:58 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:07:30 -0300
+
+ActionController::RoutingError (No route matches [GET] "/articulos"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (55.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (113.8ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (78.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPositivosToArticulos (20170123121830)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (243.3ms)[0m  [1mALTER TABLE "articulos" ADD "positivos" integer[0m
+  [1m[35mSQL (53.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170123121830"]]
+  [1m[36m (64.1ms)[0m  [1mCOMMIT[0m
+Migrating to AddNegativosToArticulos (20170123121932)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "articulos" ADD "negativos" integer[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170123121932"]]
+  [1m[36m (26.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddLeidosToArticulos (20170123122000)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (21.8ms)[0m  [1mALTER TABLE "articulos" ADD "leidos" integer[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170123122000"]]
+  [1m[36m (17.1ms)[0m  [1mCOMMIT[0m
+Migrating to AddSubtituloToArticulos (20170123122053)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "articulos" ADD "subtitulo" character varying[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170123122053"]]
+  [1m[36m (4.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (17.7ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'articulos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'comentarios'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'usuarios'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:30:40 -0300
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (13.8ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 849ms (Views: 761.7ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:41 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-23 09:30:42 -0300
+
+
+Started GET "/articulos/4/edit" for 127.0.0.1 at 2017-01-23 09:30:49 -0300
+Processing by ArticulosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered articulos/_form.html.erb (24.2ms)
+  Rendered articulos/edit.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 100ms (Views: 53.0ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/articulos/4" for 127.0.0.1 at 2017-01-23 09:30:58 -0300
+Processing by ArticulosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3l/1o0468l/T0wrtuDCJ23iP/qX4VIDy8Le3sgp2q4xCEjjee0Zw2fpYUZf3jjElUMcMG5okl3bi8j6AYR/XdQ==", "articulo"=>{"titulo"=>"nuevo tituo", "subtitulo"=>"Subtitulo", "cuerpo"=>"bl bla"}, "commit"=>"Update Articulo", "id"=>"4"}
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (27.6ms)[0m  [1mUPDATE "articulos" SET "subtitulo" = $1, "updated_at" = $2 WHERE "articulos"."id" = $3[0m  [["subtitulo", "Subtitulo"], ["updated_at", "2017-01-23 12:30:58.959598"], ["id", 4]]
+  [1m[35m (54.8ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/articulos/4
+Completed 302 Found in 119ms (ActiveRecord: 83.1ms)
+
+
+Started GET "/articulos/4" for 127.0.0.1 at 2017-01-23 09:30:59 -0300
+Processing by ArticulosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered articulos/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articulos/4/edit" for 127.0.0.1 at 2017-01-23 09:31:06 -0300
+Processing by ArticulosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticulo Load (0.3ms)[0m  SELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered articulos/_form.html.erb (3.7ms)
+  Rendered articulos/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:31:10 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.8ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 176ms (Views: 174.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-23 09:40:43 -0300
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2017-01-23 09:40:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2017-01-23 09:40:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.9ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.9ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.9ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-23 09:41:40 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:43:13 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.6ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined local variable or method `articulo' for #<#<Class:0x007f43be1b4550>:0x007f43a005af38>):
+    17: 							<span class="time">12:00 AM</span>
+    18: 						</time>
+    19: 						<div class="info">
+    20: 							<h2 class="title"><%= articulo.titulo %></h2>
+    21: 							<p class="desc"><%= articulo.subtitulo %></p>
+    22: 							<ul>
+    23: 								<li style="width:80%;"><a href="#website"><span class="fa fa-eye"></span>Leer</a></li>
+  app/views/articulos/index.html.erb:20:in `_app_views_articulos_index_html_erb___1888172338904854740_69964212129340'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.8ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.5ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-23 09:44:45 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-23 09:49:14 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:14 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:14 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
