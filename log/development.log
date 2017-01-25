@@ -1016,3 +1016,2770 @@ Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f1
 
 
 Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-23 09:49:15 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-24 20:35:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (121.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingController#index as HTML
+  Rendered landing/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3055ms (Views: 3025.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/icomoon.css" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/animate-custom.css" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/modernizr.custom.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/team/team01.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/team/team02.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/team/team03.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/team/team04.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/macbook.png" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio02.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio04.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio05.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio01.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio06.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/portfolio/folio03.jpg" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/retina.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/jquery-func.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/smoothscroll.js" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+
+Started GET "/assets/ico/favicon.png" for 127.0.0.1 at 2017-01-24 20:35:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/ico/favicon.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peyu/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (156.8ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (372.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (140.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.3ms)
+
+
+Started GET "/assets/icomoon/icomoon.woff" for 127.0.0.1 at 2017-01-24 20:35:29 -0300
+
+
+Started GET "/assets//header_bg.jpg" for 127.0.0.1 at 2017-01-24 20:35:29 -0300
+
+
+Started GET "/assets//bg/divider1.jpg" for 127.0.0.1 at 2017-01-24 20:35:29 -0300
+
+
+Started GET "/assets//bg/divider3.jpg" for 127.0.0.1 at 2017-01-24 20:35:29 -0300
+
+
+Started GET "/assets//bg/divider6.jpg" for 127.0.0.1 at 2017-01-24 20:35:29 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:35:35 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (96.7ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (254.8ms)
+Completed 200 OK in 323ms (Views: 58.2ms | ActiveRecord: 241.8ms)
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:35:36 -0300
+
+
+Started GET "/articulos/new" for 127.0.0.1 at 2017-01-24 20:35:39 -0300
+Processing by ArticulosController#new as HTML
+  Rendered articulos/_form.html.erb (43.1ms)
+  Rendered articulos/new.html.erb within layouts/application (57.7ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articulos" for 127.0.0.1 at 2017-01-24 20:36:04 -0300
+Processing by ArticulosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y9NREJJ5FFuAwwwif+BbtDFQAW1JApCqHbTxCGSyzmMlIWrRyZVQorWzRYOQISj1K1bzrpD6d671RenSsDTYgA==", "articulo"=>{"titulo"=>"Este es un articulo", "subtitulo"=>"esta muy bueno", "cuerpo"=>"bla bla bla"}, "commit"=>"Create Articulo"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (31.1ms)[0m  INSERT INTO "articulos" ("titulo", "subtitulo", "cuerpo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["titulo", "Este es un articulo"], ["subtitulo", "esta muy bueno"], ["cuerpo", "bla bla bla"], ["created_at", "2017-01-24 23:36:04.331336"], ["updated_at", "2017-01-24 23:36:04.331336"]]
+  [1m[36m (187.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/articulos/5
+Completed 302 Found in 301ms (ActiveRecord: 218.4ms)
+
+
+Started GET "/articulos/5" for 127.0.0.1 at 2017-01-24 20:36:04 -0300
+Processing by ArticulosController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mArticulo Load (0.8ms)[0m  SELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered articulos/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 85ms (Views: 43.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:36:09 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (1.1ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:36:09 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:39:56 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:40:01 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (1.5ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:43:46 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.8ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:44:18 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:46:45 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:48 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:47:49 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:47:54 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.7ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:48:32 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:01 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.6ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:01 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:01 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:49:02 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:04 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:32 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.6ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:33 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (1.1ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:35 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (1.0ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:36 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (1.1ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:36 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.8ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:56 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:49:57 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:49:59 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.8ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:00 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:00 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.3ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:00 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:01 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.3ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:50:21 -0300
+
+
+Started GET "/articulos/4" for 127.0.0.1 at 2017-01-24 20:50:26 -0300
+Processing by ArticulosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered articulos/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:50:31 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.6ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:52:19 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:52:20 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:52:23 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:52:37 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:55:39 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:44 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:45 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:56:45 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:45 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.3ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:56:59 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:58:15 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.8ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:16 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:58:17 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:21 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 20:58:22 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:02:10 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:22 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:23 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (1.3ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:02:59 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:00 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:03:00 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:03:25 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.6ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:03:43 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.5ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:04:09 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:04:20 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:05:17 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:06:35 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `aticulo' for #<#<Class:0x007fc8b9374e00>:0x007fc89c0386f0>):
+    19: 						
+    20: 						</time>
+    21: 						<div class="info">
+    22: 							<h2 class="title"><%= link_to aticulo.titulo, articulo %></h2>
+    23: 							<p class="desc"><%= articulo.subtitulo %></p>
+    24: 							<ul>
+    25: 								<li style="width:33%;"> <span class="fa fa-eye"></span><%= link_to 'Leer', articulo %></li>
+  app/views/articulos/index.html.erb:22:in `block in _app_views_articulos_index_html_erb___3735848436787353115_70249793780280'
+  app/views/articulos/index.html.erb:11:in `_app_views_articulos_index_html_erb___3735848436787353115_70249793780280'
+
+
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.1ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/peyu/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (68.8ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.6ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:06:46 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:07:28 -0300
+
+
+Started GET "/articulos/4" for 127.0.0.1 at 2017-01-24 21:07:52 -0300
+Processing by ArticulosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT  "articulos".* FROM "articulos" WHERE "articulos"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered articulos/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 81.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:07:55 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.4ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+Processing by ArticulosController#index as HTML
+  [1m[36mArticulo Load (0.4ms)[0m  [1mSELECT "articulos".* FROM "articulos"[0m
+  Rendered articulos/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:08:38 -0300
+
+
+Started GET "/articulos" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+Processing by ArticulosController#index as HTML
+  [1m[35mArticulo Load (0.6ms)[0m  SELECT "articulos".* FROM "articulos"
+  Rendered articulos/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/animate-custom.self-34d54b0c170bee3a692122738e4e867b091606bc1068faa88569a7613a690d5a.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/articulos-lista.self-dee7faba25d8be2c8ca942c5c370e438aea556b15be3c111ab963976465034aa.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/icomoon.self-42469cd6cd0e1c08374b8e4e1632766dca305788d0e4e875025bdd3b47317976.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/bootstrap.self-45d4320d2eb32626c09c2c92be15455cf02f0190684092f23050b7f4f72d9cf8.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/comentarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/main.self-82e83c454ae8fe473f155108652b4c7e908d122303dc72e7977e06668565721e.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/bootstrap.self-46fabfa09df9a5a5b074ae37c5fee9f36af55f31b439a988b68d77c5db1b8449.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/comentarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/interact.self-8924300b607d6333c0074ca13096a3796c6b7b04d7ffc458b7df056dae83c369.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/jquery-func.self-c1899ce8e2376fa15b2ca220f73a34980e26ec3b145e25afaf9e2cdf53bcb80b.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/jquery.easing.1.3.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/jquery.min.self-11cf16f9fa47f38ff39b9db8c53ebbeba67b045f87f6bfdb655cc618bcf31445.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/smoothscroll.self-6cbad5a27eb91fc52a2994dbbc3e56430b9a687f133d702ec099ac1388d49919.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/modernizr.custom.self-28212c2c1962be02c1241b89092725ad645c6fb20eaf0d1f6f18c810f314a99e.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/articulos-lista.css" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
+
+
+Started GET "/assets/retina.self-865539c04592a5e378f3db560228740b8f461884c144e7e41e7fb0403d872479.js?body=1" for 127.0.0.1 at 2017-01-24 21:09:08 -0300
