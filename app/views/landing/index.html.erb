@@ -1,64 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
-    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title> SHIELD - Free Bootstrap 3 Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/assets/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="/assets/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/icomoon.css">
-    <link href="/assets/animate-custom.css" rel="stylesheet">
-
-
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="/assets/jquery.min.js"></script>
-	<script type="text/javascript" src="/assets/modernizr.custom.js"></script>
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="/assets/html5shiv.js"></script>
-      <script src="/assets/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-  
-  
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>
-          </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-			<li> <a href="#about" class="smoothScroll"> Visión</a></li>
-			<li> <a href="#services" class="smoothScroll"> Services</a></li>
-			<li> <a href="#team" class="smoothScroll"> Team</a></li>
-			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-			<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
-			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    </div>
-
   
   
 		<!-- ==== HEADERWRAP ==== -->
@@ -72,7 +11,7 @@
 
 		
 		
-		<!-- ==== ABOUT ==== -->
+		<!-- ==== Vision ==== -->
 		<div class="container" id="about" name="about">
 			<div class="row white">
 			<br>
@@ -100,7 +39,7 @@
 		
 		
 		
-		<!-- ==== TEAM MEMBERS ==== -->
+		<!-- ==== EQUIPO ==== -->
 		<div class="container" id="team" name="team">
 		<br>
 			<div class="row white centered">
@@ -148,9 +87,9 @@
 			</div><!-- row -->
 		</div><!-- container -->
 
-		<!-- ==== GREYWRAP ==== -->
+		<!-- ==== ARTICULOS ==== -->
 		<div id="greywrap">
-			<div class="container">
+			<div class="container" id="Articulos" name="Articulos">
 				<div class="row">
 					<div class="col-lg-8 centered">
 						<img class="img-responsive" src="/assets/macbook.png" align="">
@@ -158,7 +97,8 @@
 					<div class="col-lg-4">
 						<h2>Articulos</h2>
 						<p>Actualmente esta sección se encuentra en costrucción, muy pronto podrás apreciar lo mejor de nuestras experiencias. ¡No te lo pierdas!</p>
-						<p><a class="btn btn-success">Leer Más</a></p>
+						<p><%= link_to "Leer Mas", articulos_path, {class: 'btn btn-success'} %></p>
+						
 					</div>					
 				</div><!-- row -->
 			</div>
@@ -168,7 +108,7 @@
 		
 		<!-- ==== SECTION DIVIDER3 -->
 		<section class="section-divider textdivider divider3">
-			<div class="container">
+			<div class="container" id="p_evento" name="p_evento">
 				<h1>PROXIMO EVENTO</h1>
 				<hr>
 				<p>Nustro proximo evento se realizará en febrero, en el centro cultural israelita. ¡Los esperamos!</p>
@@ -344,18 +284,17 @@
 				<br>
 				<div class="col-lg-4">
 					<h3>Contact Information</h3>
-					<p><span class="icon icon-home"></span> Some Address 987, NY<br/>
-						<span class="icon icon-phone"></span> +34 9884 4893 <br/>
-						<span class="icon icon-mobile"></span> +34 59855 9853 <br/>
-						<span class="icon icon-envelop"></span> <a href="#"> agency@blacktie.co</a> <br/>
-						<span class="icon icon-twitter"></span> <a href="#"> @blacktie_co </a> <br/>
-						<span class="icon icon-facebook"></span> <a href="#"> BlackTie Agency </a> <br/>
+					<p><br/>
+						
+						<span class="icon icon-mobile"></span> 0261-156983918 (Andrés) <br/>
+						<span class="icon icon-envelop"></span> laOrdenDelRol@Gmail.com <br/>
+						<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/people/Juegos-De-Rol-Mendoza/100001630147693"> Juegos de Rol Mendoza </a> <br/>
 					</p>
 				</div><!-- col -->
 				
 				<div class="col-lg-4">
-					<h3>Newsletter</h3>
-					<p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+					<h3>Registrate</h3>
+					<p>Si deseas recibir noticias acerca de futuros eventos y articulos, dejanos tu email</p>
 					<p>
 						<form class="form-horizontal" role="form">
 						  <div class="form-group">
@@ -380,8 +319,8 @@
 				</div><!-- col -->
 				
 				<div class="col-lg-4">
-					<h3>Support Us</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<h3>Colabora con nosotros</h3>
+					<p>Si eres narrador o jugador, y crees que puedes ayudarnos a mejorar, aportar contenidos, o participar en alguno de nuestros eventos ¡No dudes en contactarte con nosotros!</p>
 				</div><!-- col -->
 
 			</div><!-- row -->
@@ -390,7 +329,7 @@
 
 		<div id="footerwrap">
 			<div class="container">
-				<h4>Created by <a href="http://blacktie.co">BlackTie.co</a> - Copyright 2014</h4>
+				<h4>Template created by <a href="http://blacktie.co">BlackTie.co</a> - Copyright 2014 -- Adapted by Andrés Coppola</h4>
 			</div>
 		</div>
 
@@ -404,5 +343,5 @@
 	<script type="text/javascript" src="/assets/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="/assets/smoothscroll.js"></script>
 	<script type="text/javascript" src="/assets/jquery-func.js"></script>
-  </body>
-</html>
+  
+
