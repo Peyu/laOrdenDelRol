@@ -1,0 +1,15 @@
+
+
+                   <div class="comments-list">
+                       <div class="media">
+                         <p class="pull-right"><small><%= content_tag :span, "(#{time_ago_in_words comentario.created_at} ago)", class: "comentario-created" %></small></p>
+                         
+                            <div class="media-body">
+                              <h4 class="media-heading user_name"><%= content_tag :span, "#{comentario.autor}", class: "comentario-title" %></h4>
+                              <%= content_tag :span, "#{comentario.cuerpo}", class: "comentario-title" %> 
+                            </div>
+                       </div>
+                   </div>
+                 
+<!-- <%= link_to "Delete comentario", [@articulo, comentario], method: :delete %>  -->
+               

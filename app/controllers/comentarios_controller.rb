@@ -18,7 +18,7 @@ class ComentariosController < ApplicationController
 
   private
     def set_articulo
-      @articulo = articulo.find(params[:articulo_id]) 
+      @articulo = Articulo.find(params[:articulo_id]) 
     end
 
     def comentario_params

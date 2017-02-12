@@ -1,19 +1,68 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Titulo:</strong>
-  <%= @articulo.titulo %>
-</p>
+<!-- Custom styles -->
+<link href="/assets/articulo.css" rel="stylesheet">
+<link href="/assets/comentario.css" rel="stylesheet">
 
-<p>
-  <strong>Subtitulo:</strong>
-  <%= @articulo.subtitulo %>
-</p>
+<div id="circle-shape-example">
+  <img src="/assets/articulos/dnd.jpg"  class="curve">
+  <strong><h1><%= @articulo.titulo %></h1></strong>
+  
+  <strong><%= @articulo.subtitulo %></strong>
+  <p><%= @articulo.cuerpo %></p>
+</div>
 
-<p>
-  <strong>Cuerpo:</strong>
-  <%= @articulo.cuerpo %>
-</p>
+<div class="centered">
+  <h2>
+  	<b><%= link_to 'Editar', edit_articulo_path(@articulo) %> | <%= link_to 'Volver', articulos_path %></b>
+  </h2>
+</div>
 
-<%= link_to 'Edit', edit_articulo_path(@articulo) %> |
-<%= link_to 'Back', articulos_path %>
+<div id="comentarioss">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header">
+          <h1><small class="pull-right"> <%= pluralize(@articulo.comentarios.count, "comentario") %></small> Comentarios </h1>
+        </div> 
+        <%= render @articulo.comentarios %> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+
+
+  
+  <%= form_for([@articulo, @articulo.comentarios.new]) do |f| %>
+    <div class="container">    
+      <div class="row">
+        <div class="field">
+          <%= f.label :Dejanos_tu_comentario %>:
+          <%= f.text_field :cuerpo, class: "col-md-12" %>
+        </div>
+      <br>
+      </div>
+      <div class="row">
+        <div class="field">
+          <%= f.label :autor %>:<br>
+          <%= f.text_field :autor %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <%= f.submit "Agregar comentario" %>
+        </div>
+      </div><br>
+    </div>    
+  <% end %>	
+
+  <div id="footerwrap">
+    <div class="container">
+	  <h4>Template created by <a href="http://blacktie.co">BlackTie.co</a> - Copyright 2014 -- Adapted by Andrés Coppola</h4>
+    </div>
+  </div>
+       
+
+
+
+
+
+
