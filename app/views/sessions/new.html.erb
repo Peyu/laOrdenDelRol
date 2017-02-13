@@ -1,0 +1,13 @@
+
+
+<div class = "container">
+	<div class="wrapper">
+	  <%= form_for(:usuario, url: sessions_path, :html => {:class => 'form-signin', :name => 'Login_Form'}) do |f| %>	       
+	    <h3 class="form-signin-heading">¡Bienvenido denuevo!</h3>
+		<hr class="colorgraph"><br>
+		<%= f.text_field :nombre, class: "form-control", placeholder: "Nombre de usuario", required: "", autofocus: "" %>
+		<%= f.password_field :password, class: "form-control", placeholder: "Contraseña", required: "" %>
+        <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Ingresar</button>  			
+	  <% end %>
+    </div>
+</div>

@@ -1,3 +1,4 @@
 class Usuario < ActiveRecord::Base
-  has_many :comentarios
+  has_secure_password
+  has_many :articulos
 end
