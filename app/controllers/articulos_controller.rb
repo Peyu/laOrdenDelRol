@@ -15,7 +15,7 @@ class ArticulosController < ApplicationController
 
   # GET /articulos/new
   def new
-    @articulo = Articulo.new
+    @articulo = current_user.articulos.new
   end
 
   # GET /articulos/1/edit
@@ -25,11 +25,11 @@ class ArticulosController < ApplicationController
   # POST /articulos
   # POST /articulos.json
   def create
-    @articulo = Articulo.new(articulo_params)
+    @articulo = current_user.articulos.new(articulo_params)
 
     respond_to do |format|
       if @articulo.save
-        format.html { redirect_to @articulo, notice: 'Articulo was successfully created.' }
+        format.html { redirect_to @articulo, notice: 'El artículo se creo correctamente.' }
         format.json { render :show, status: :created, location: @articulo }
       else
         format.html { render :new }
@@ -43,7 +43,7 @@ class ArticulosController < ApplicationController
   def update
     respond_to do |format|
       if @articulo.update(articulo_params)
-        format.html { redirect_to @articulo, notice: 'Articulo was successfully updated.' }
+        format.html { redirect_to @articulo, notice: 'El artículo se actualizó correctamente.' }
         format.json { render :show, status: :ok, location: @articulo }
       else
         format.html { render :edit }
@@ -57,7 +57,7 @@ class ArticulosController < ApplicationController
   def destroy
     @articulo.destroy
     respond_to do |format|
-      format.html { redirect_to articulos_url, notice: 'Articulo was successfully destroyed.' }
+      format.html { redirect_to articulos_url, notice: 'El artículo se eliminó correctamente.' }
       format.json { head :no_content }
     end
   end
@@ -72,7 +72,7 @@ class ArticulosController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_articulo
-      @articulo = Articulo.find(params[:id])
+      @articulo = current_user.articulos.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

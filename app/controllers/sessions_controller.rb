@@ -18,6 +18,6 @@ class SessionsController < ApplicationController
 
   def destroy
     reset_session # helper that wipe out session and everything in it
-    redirect_to login_path, notice: "Su sesión ha terminado"
+    redirect_to index_path, notice: "Su sesión ha terminado"
   end
 end

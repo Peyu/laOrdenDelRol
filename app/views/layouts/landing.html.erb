@@ -48,6 +48,16 @@
 			  <li> <a href="#Articulos" class="smoothScroll"> Articulos</a></li>
 			  <li> <a href="#p_evento" class="smoothScroll"> Eventos</a></li>
 			  <li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
+			  
+			  <% if logged_in? %>
+  				<li> <%= link_to "Logout #{current_user.nombre}", logout_path, method: :delete %></li>
+    			<%else %>  |
+    			<li> <%= link_to "Login", login_path %></li> 
+  				
+			  <% end %>
+
+			  
+			  
           </div><!--/.nav-collapse -->
         </div>
       </div>
