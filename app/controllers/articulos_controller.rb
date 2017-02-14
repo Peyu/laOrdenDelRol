@@ -1,6 +1,7 @@
 class ArticulosController < ApplicationController
   before_action :set_articulo, only: [:show, :edit, :update, :destroy]
-
+  before_action :ensure_login, only: [:edit, :update, :created, :new, :destroy]
+    
   # GET /articulos
   # GET /articulos.json
   def index
@@ -60,6 +61,13 @@ class ArticulosController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  protected
+    def ensure_login 
+      # Always go to login page unless session contains
+      # reviewer_id
+      redirect_to login_path unless session[:usuario_id]
+    end
 
   private
     # Use callbacks to share common setup or constraints between actions.
