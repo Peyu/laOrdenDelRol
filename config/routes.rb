@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   
   get "/login" => "sessions#new", as: "login"
-  delete "/logout" => "sessions#destroy", as: "logout"
+  
   get "/logout" => "sessions#destroy", as: "logout"
   get "/index" => "landing#index", as: "index"
 
