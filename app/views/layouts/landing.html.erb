@@ -50,7 +50,7 @@
 			  <li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
 			  
 			  <% if logged_in? %>
-  				<li> <%= link_to "Logout #{current_user.nombre}", logout_path(current_user.id), method: :delete %></li>
+  				<li> <%= link_to "Logout #{current_user.nombre}", logout_path, method: :delete %></li>
     			<%else %>  |
     			<li> <%= link_to "Login", login_path %></li> 
   				
