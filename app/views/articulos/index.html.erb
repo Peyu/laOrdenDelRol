@@ -21,7 +21,7 @@
 							<ul>
 								<% if logged_in? %>
 								  <% if current_user.id == articulo.usuario_id %>
-								  <li style="width:50%;"> <span class="fa fa-pencil"></span><%= button_to 'Editar', edit_articulo_path(articulo) %></li>
+								  <li style="width:50%;"> <span class="fa fa-pencil"></span><%= button_to 'Editar', edit_articulo_path(articulo), method: :get %></li>
 								  <li style="width:50%	;"> <span class="fa fa-times"></span><%= button_to 'Eliminar', articulo, method: :delete, data: { confirm: 'Are you sure?' } %></li>
 								  <% end %>
                                 <% end %>  
