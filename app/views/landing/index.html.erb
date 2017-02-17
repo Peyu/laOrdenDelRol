@@ -106,12 +106,13 @@
 			<br>
 		</div><!-- greywrap -->
 		
-		<!-- Proximo Evento -->
+		<!-- Critico Directo -->
 		<section class="section-divider textdivider divider3">
 			<div class="container" id="p_evento" name="p_evento">
-				<h1>PROXIMO EVENTO</h1>
+				<h1>Critico Directo</h1>
 				<hr>
-				<p>Sabado 18 de febrero a las 10:00 am en el centro cultural israelita (Maipu 252, ciudad). ¡Los esperamos!</p>
+				<p>No te pierdas el canal de Youtube sobre juegos de rol de nuestro amigo y colaborador, Sebastián</p>
+				<p><a href="https://www.youtube.com/channel/UCUYFKtjmGBE3rWMLkSf_Vxw" class="btn btn-success"> Ir al canal </a></p>
 				<!-- <p><a class="btn btn-success">Leer Más</a></p> -->
 			</div><!-- container -->
 		</section><!-- section -->
@@ -121,7 +122,7 @@
 		<br>
 			<div class="row">
 				<br>
-				<h1 class="centered">EVENTOS ANTERIORES - En construcción</h1>
+				<h1 class="centered">EVENTOS ANTERIORES</h1>
 				<hr>
 				<br>
 				<br>
@@ -154,7 +155,7 @@
 						<%= content_tag :h4, "#{evento.titulo}", class: "modal-title" %>
 					  </div>
 					  <div class="modal-body">
-					    <p><img class="img-responsive" src="/assets/portfolio/folio01.jpg" alt=""></p>
+					    <p><%= image_tag evento.imagen, class: "img-responsive" %></p>
 						<%= content_tag :p, "#{evento.cuerpo}" %>
 						<!-- ><p><b><a href="#">Visit Site</a></b></p> -->
 					  </div>
@@ -193,7 +194,7 @@
 						<%= content_tag :h4, "#{evento.titulo}", class: "modal-title" %>
 					  </div>
 					  <div class="modal-body">
-					    <p><img class="img-responsive" src="/assets/portfolio/folio01.jpg" alt=""></p>
+					    <p><%= image_tag evento.imagen, class: "img-responsive" %></p>
 						<%= content_tag :p, "#{evento.cuerpo}" %>
 						<!-- ><p><b><a href="#">Visit Site</a></b></p> -->
 					  </div>
