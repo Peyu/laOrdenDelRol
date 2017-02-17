@@ -134,10 +134,10 @@
 				<div class="col-md-4 ">
 			      <div class="grid mask">
 					<figure>
-					  <%= image_tag evento.imagen, class: "img-responsive" %>
-					  <%= image_tag evento.imagen.small %>
+					  <%= image_tag evento.imagen.small, class: "img-responsive" %>
+					  
 					    <figcaption>
-					      <h5>Mendotaku 2016</h5>
+					      <%= content_tag :h5, "#{evento.titulo}", class: "book-title" %>
 					      <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Ver Más</a>
 					    </figcaption><!-- /figcaption -->
 					</figure><!-- /figure -->
@@ -150,15 +150,16 @@
 				    <div class="modal-content">
 					  <div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title">Project Title</h4>
+					
+						<%= content_tag :h4, "#{evento.titulo}", class: "modal-title" %>
 					  </div>
 					  <div class="modal-body">
 					    <p><img class="img-responsive" src="/assets/portfolio/folio01.jpg" alt=""></p>
-						<p>Demostración de Rol en vivo. Titulo: "La conspiración de Alby". En el marco del conocido evento Mendotaku, tuvimos la oportunidad de interpretar para un concurrido público, uno de nuestros juegos de rol preferidos: Vampro, edad Oscura. Además contamos con mesas de juego y exhibición de manuales.</p>
-						<p><b><a href="#">Visit Site</a></b></p>
+						<%= content_tag :p, "#{evento.cuerpo}" %>
+						<!-- ><p><b><a href="#">Visit Site</a></b></p> -->
 					  </div>
 					  <div class="modal-footer">
-					    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 					  </div>
 					</div><!-- /.modal-content -->
 				  </div><!-- /.modal-dialog -->
@@ -166,49 +167,47 @@
 			  <% end %>
 			</div><!-- /row -->
 
-				<!-- PORTFOLIO IMAGE 4 -->
-			<div class="row">	
+<div class="row">	
+			  <% @eventos4a6.each do |evento| %>			  
+				<!-- PORTFOLIO IMAGE 1 -->
 				<div class="col-md-4 ">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="/assets/portfolio/folio04.jpg" alt="Small yamanishi   1ra">
-							<figcaption>
-								<h5>PROFILE</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
+			      <div class="grid mask">
+					<figure>
+					  <%= image_tag evento.imagen.small, class: "img-responsive" %>
+					  
+					    <figcaption>
+					      <%= content_tag :h5, "#{evento.titulo}", class: "book-title" %>
+					      <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Ver Más</a>
+					    </figcaption><!-- /figcaption -->
+					</figure><!-- /figure -->
+			      </div><!-- /grid-mask -->
 				</div><!-- /col -->
 				
-				<!-- PORTFOLIO IMAGE 5 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="/assets/portfolio/folio05.jpg" alt="">
-							<figcaption>
-								<h5>TWITTER STATUS</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				<!-- PORTFOLIO IMAGE 6 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="/assets/portfolio/folio06.jpg" alt="">
-							<figcaption>
-								<h5>PHONE MOCKUP</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
+				<!-- MODAL SHOW THE PORTFOLIO IMAGE... -->
+			    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					
+						<%= content_tag :h4, "#{evento.titulo}", class: "modal-title" %>
+					  </div>
+					  <div class="modal-body">
+					    <p><img class="img-responsive" src="/assets/portfolio/folio01.jpg" alt=""></p>
+						<%= content_tag :p, "#{evento.cuerpo}" %>
+						<!-- ><p><b><a href="#">Visit Site</a></b></p> -->
+					  </div>
+					  <div class="modal-footer">
+					    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+					  </div>
+					</div><!-- /.modal-content -->
+				  </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+			  <% end %>
 			</div><!-- /row -->
-			<br>
-			<br>
-		</div><!-- /row -->
+
+
+
 	</div><!-- /container -->
 
 		
@@ -242,7 +241,7 @@
 				</div><!-- col -->
 				
 				<div class="col-lg-4">
-					<h3>Registrate</h3>
+					<h3>Noticias</h3>
 					<p>Si deseas recibir noticias acerca de futuros eventos y articulos, dejanos tu email</p>
 					<p>
 						<form class="form-horizontal" role="form">
