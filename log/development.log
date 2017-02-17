@@ -64506,3 +64506,4 @@ Started GET "/assets/animate-custom.css" for 127.0.0.1 at 2017-02-17 02:37:31 -0
 
 
 Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2017-02-17 02:37:31 -0300
+  [1m[36mEvento Load (0.8ms)[0m  [1mSELECT "eventos".* FROM "eventos"[0m
