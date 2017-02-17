@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Imagen:</strong>
+  <%= @evento.imagen %>
+</p>
+
+<%= image_tag @evento.imagen_url %>
+<%= image_tag @evento.imagen.small %>
+
+
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @evento.titulo %>
+</p>
+
+<p>
+  <strong>Cuerpo:</strong>
+  <%= @evento.cuerpo %>
+</p>
+
+<%= link_to 'Edit', edit_evento_path(@evento) %> |
+<%= link_to 'Back', eventos_path %>

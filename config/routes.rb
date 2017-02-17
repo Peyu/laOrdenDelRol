@@ -6,10 +6,11 @@ Rails.application.routes.draw do
   get 'sessions/destroy'
 
   resources :sessions, only: [:new, :create, :destroy]
+  resources :eventos
   
   get "/login" => "sessions#new", as: "login"
   
-  get "/logout" => "sessions#destroy", as: "logout"
+  get "/logout" => "sessions#destroy", as: "logout" #Deberia ser por delete, pero no funciona por limitaciones del link_to
   get "/index" => "landing#index", as: "index"
 
   # The priority is based upon order of creation: first created -> highest priority.
