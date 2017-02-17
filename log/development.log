@@ -1,1 +1,14 @@
 
+  [1m[36mArticulo Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM "articulos" LIMIT 1[0m
+  [1m[35mComentario Exists (0.6ms)[0m  SELECT  1 AS one FROM "comentarios" LIMIT 1
+  [1m[36mEvento Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM "eventos" LIMIT 1[0m
+  [1m[35mUsuario Exists (0.9ms)[0m  SELECT  1 AS one FROM "usuarios" LIMIT 1
+  [1m[36m (39.4ms)[0m  [1mSELECT COUNT(*) FROM "articulos"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "articulos"
+  [1m[36mArticulo Load (7.8ms)[0m  [1mSELECT  "articulos".* FROM "articulos" LIMIT 2 OFFSET 0[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "eventos"
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "eventos"[0m
+  [1m[35mEvento Load (0.6ms)[0m  SELECT  "eventos".* FROM "eventos" LIMIT 6 OFFSET 0
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "usuarios"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "usuarios"
+  [1m[36mUsuario Load (0.7ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" LIMIT 2 OFFSET 0[0m
